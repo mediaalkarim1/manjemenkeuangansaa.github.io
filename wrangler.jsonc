@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "saa-finance",
+  "main": "src/server.ts",
+  "compatibility_date": "2026-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "saa-finance-db",
+      "database_id": "7380a517-5ddb-4620-9e15-9d93b5fd3be2"
+    }
+  ]
+}

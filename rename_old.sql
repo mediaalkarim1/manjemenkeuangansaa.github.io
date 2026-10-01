@@ -1,0 +1,9 @@
+ALTER TABLE students RENAME TO old_students;
+ALTER TABLE app_store RENAME TO old_app_store;
+ALTER TABLE users RENAME TO old_users;
+ALTER TABLE bills RENAME TO old_bills;
+ALTER TABLE payments RENAME TO old_payments;
+ALTER TABLE expenses RENAME TO old_expenses;
+ALTER TABLE payroll RENAME TO old_payroll;
+ALTER TABLE settings RENAME TO old_settings;
+ALTER TABLE audit_logs RENAME TO old_audit_logs;
